@@ -1,7 +1,7 @@
 # 🛡️ Mission & System Requirements (CZOŁGOWNIA)
 
 ### 📡 M01: Remote Control
-> The tank must be operable without direct line of sight.
+> The tank must be wirelessly operable.
 
 | ID | System Requirement | Priority |
 | :--- | :--- | :---: |
@@ -12,8 +12,8 @@
 
 ---
 
-### 🚜 M02: Mobility
-> The platform must navigate effectively using tank treads.
+### 🪖 M02: Mobility
+> The Tank must be able to move in every direction.
 
 | ID | System Requirement | Priority |
 | :--- | :--- | :---: |
@@ -23,23 +23,23 @@
 ---
 
 ### 💥 M03: Firing Capabilities
-> The tank must engage targets using a pneumatic/mechanical system.
+> The tank must engage targets using a pneumatic system.
 
 | ID | System Requirement | Priority |
 | :--- | :--- | :---: |
-| **S301** | Tank has an air compressor or mechanism connected to the barrel | High |
-| **S302** | Tank fires projectiles (tennis balls/ping-pong) from the barrel | High |
+| **S301** | Tank has an air compressor connected to the barrel | High |
+| **S302** | Tank fires projectiles (Golf balls) from the barrel | High |
 
 ---
 
 ### 🔄 M04: Turret & Barrel Control
-> Precision aiming capabilities independent of the chassis movement.
+> The User must be able to control the position of turret and barrel.
 
 | ID | System Requirement | Priority |
 | :--- | :--- | :---: |
 | **S401** | Tank turret is placed on a motor rotating it horizontally | High |
 | **S402** | Sensors monitor turret position (cable twisting prevention) | Low |
-| **S403** | Tank barrel is connected to a motor controlling its **vertical** angle | High |
+| **S403** | Tank barrel is connected to a motor controlling its vertical angle | High |
 | **S404** | Sensors monitor barrel position (min/max angle limits) | Low |
 
 ---
